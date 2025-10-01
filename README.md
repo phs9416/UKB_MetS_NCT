@@ -29,4 +29,4 @@ python scripts/cognitive_test.py
 
 # 7. Colocalization
 python scripts/tmap_generation.py 
-python scripts/colocalization.py .
+python scripts/colocalization.py 
