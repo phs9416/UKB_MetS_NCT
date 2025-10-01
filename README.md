@@ -1,10 +1,5 @@
 This repository provides scripts to study how metabolic syndrome (MetS) affects brain network control, aging, and cognition using UK Biobank connectomes.
 
-Requirements
--UK Biobank RAP access
--Python ≥ 3.9
--Key packages: numpy, scipy, pandas, scikit-learn, nibabel, nilearn, matplotlib
-
 # 1. Download connectomes
 bash scripts/UKB_connectome_download.sh 
 
