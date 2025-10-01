@@ -3,7 +3,7 @@ This repository provides scripts to study how metabolic syndrome (MetS) affects 
 UKB_connectome_download.sh → connectomes  
 activation_energy.py + controllability.py → energy & controllability  
 normative_modeling.py → z-scores  
-   ├─ activation_energy_difference.py → MetS vs. non-MetS differences  
+   ├─ activation_energy_difference.py → differences in activation energy across MetS score  
    ├─ brain_age_gap.py → network Brain Age Gap  
    ├─ multiple_regression.py / PLSC.py → metabolic indicators ↔ energy  
    ├─ cognitive_map_generation.py + cognitive_test.py → cognitive vulnerability & validation  
