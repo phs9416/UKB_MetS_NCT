@@ -1,5 +1,14 @@
 This repository provides scripts to study how metabolic syndrome (MetS) affects brain network control, aging, and cognition using UK Biobank connectomes.
 
+UKB_connectome_download.sh → connectomes  
+activation_energy.py + controllability.py → energy & controllability  
+normative_modeling.py → z-scores  
+   ├─ activation_energy_difference.py → MetS vs. non-MetS differences  
+   ├─ brain_age_gap.py → network Brain Age Gap  
+   ├─ multiple_regression.py / PLSC.py → metabolic indicators ↔ energy  
+   ├─ cognitive_map_generation.py + cognitive_test.py → cognitive vulnerability & validation  
+   └─ tmap_generation.py + colocalization.py → PET & gene colocalization
+
 # 1. Download connectomes
 bash scripts/UKB_connectome_download.sh 
 
