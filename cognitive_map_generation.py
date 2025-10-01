@@ -152,7 +152,6 @@ for term in term_list:
         data[term] = vec
     else:
         print(f'File not found: {nii_file}')
-        data[term] = np.nan  # 해당 term 결과 없을 시 NaN으로 채움
+        data[term] = np.nan 
 
-# 최종 CSV 저장
 data.to_csv('cognitive_state_map_FDR.csv', sep=',')
