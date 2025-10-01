@@ -5,7 +5,7 @@ from patsy import dmatrix
 from pcntoolkit.normative import estimate
 
 cohort = pd.read_csv('cohort.csv')
-activation = pd.read_csv('activation.csv') ## controllability.csv
+activation = pd.read_csv('activation.csv') ## controllability.csv, metabolic_feature.csv
 data = pd.merge(cohort, activation, how='inner', on='eid')
 data.to_csv('whole_data.csv', index=False)
 
